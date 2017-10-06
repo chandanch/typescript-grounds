@@ -7,7 +7,8 @@
  */
 class Car {
     protected brakeType: string = "drums";
-    public static fuelType: string;
+    // changed to private
+    private static fuelType: string;
     constructor(protected vehicleType: string) {
         console.log(vehicleType)
     }
@@ -20,6 +21,11 @@ class Car {
     }
     static showFuelType() {
         alert(`Fuel Type ${this.fuelType}`);
+    }
+
+    // sets the static fuelType
+    public static setfuelType(fuelType: string) {
+        this.fuelType = fuelType;
     }
 }
 
@@ -47,6 +53,5 @@ lamborghini.startEngine();
 lamborghini.showVehicleType();
 lamborghini.brake = "Antilock brakes";
 alert(`Brakes Type: ${lamborghini.brake}`);
-Car.fuelType = "disel";
+Car.setfuelType("Disel");
 Car.showFuelType();
-
