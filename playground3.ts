@@ -31,7 +31,7 @@ class CheckingAccount extends BankAccount {
         const serviceChange = 10;
         // We are adding service charge for withdrawal
         // from checking account
-        let totalAmount = amount - serviceChange;
+        var totalAmount = amount - serviceChange;
         alert(`Amount withdrawed with service charge: ${totalAmount}`);
     }
 
