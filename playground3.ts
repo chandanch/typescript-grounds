@@ -1,6 +1,7 @@
 /**
  *@description This playground covers the usage of
  * abstract class
+ * @author chandanch
  */
 abstract class BankAccount {
     public name: string;
