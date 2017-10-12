@@ -1,5 +1,6 @@
 /**
  *@description: using set and get in class instance
+ *@author: chandanch
  */
 class Person {
     private name: string;
