@@ -13,7 +13,7 @@ class Person {
     }
 }
 
-class Chan {
+class Human {
    public per: Person;
     constructor() {
         this.per = new Person();
@@ -21,10 +21,10 @@ class Chan {
 }
 
 class Customer {
-    customerChan: Chan;
+    customerChan: Human;
 
     constructor() {
-        this.customerChan = new Chan();
+        this.customerChan = new Human();
         this.customerChan.per.nam = "chan";
         alert(this.customerChan.per.nam);
     }
