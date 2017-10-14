@@ -11,10 +11,10 @@ class Person {
         this.occupation = occupation
     }
 
-    gitPersonDetails() {
+    getPersonDetails() {
         alert(`${this.name} works as ${this.occupation}`)
     }
 }
 
 var sam = new Person("Sam Jones", "Casting director");
-sam.gitPersonDetails();
+sam.getPersonDetails();
