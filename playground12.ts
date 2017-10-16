@@ -1,5 +1,6 @@
 /**
  *@description use of constants
+ *@author chandanch
  */
 const interestRate = 4.5;
 let balance = 4500;
