@@ -1,3 +1,7 @@
+/**
+* @description Using namespace to group logically related code
+* @author Chandan
+*/
 namespace CarNameSpace {
     export class Car {
         public carType: string;
