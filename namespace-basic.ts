@@ -1,6 +1,6 @@
 /**
 * @description Using namespace to group logically related code
-* @author Chandan
+* @author chandanch
 */
 namespace CarNameSpace {
     export class Car {
