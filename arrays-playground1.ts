@@ -1,5 +1,6 @@
 /**
- *@description creating arrays and displaying the items of array
+ *@description creating an empty array and displaying the items of array
+ @author chandach
  */
 class Players {
     // Creates a variable with an empty array
