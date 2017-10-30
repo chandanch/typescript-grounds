@@ -8,9 +8,7 @@ class Players {
     //Defining an array of type string
     private playerIds: number[] = [];
 
-    constructor(playerName: string, playerId: number) {
-        this.playerIds.push(playerId);
-        this.playerNames.push(playerName)
+    constructor() {
     }
 
     showPlayers() {
@@ -21,8 +19,19 @@ class Players {
         alert(`Player Names:\n ${this.playerNames}`);
         alert(`Player IDs: ${this.playerIds}`)
     }
+
+    addplayerDetails(name: string, id: number) {
+        this.playerIds.push(id);
+        this.playerNames.push(name);
+    }
 }
-var john = new Players('John', 12);
-var peter = new Players('Peter', 23);
-peter.showPlayers();
+
+var players = new Players();
+players.addplayerDetails('John', 12);
+players.addplayerDetails('Joseph', 13);
+players.addplayerDetails('Ken', 34);
+
+players.showPlayers();
+
+
 
