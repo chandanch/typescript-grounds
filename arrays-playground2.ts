@@ -8,7 +8,8 @@ class Players {
     //Defining an array of type string
     private playerIds: number[] = [];
 
-    constructor() {
+    constructor(playerRanks: string[]) {
+        alert(playerRanks);
     }
 
     showPlayers() {
@@ -26,7 +27,8 @@ class Players {
     }
 }
 
-var players = new Players();
+var ranks = ['vital', 'benificiary', 'substitute'];
+var players = new Players(ranks);
 players.addplayerDetails('John', 12);
 players.addplayerDetails('Joseph', 13);
 players.addplayerDetails('Ken', 34);
