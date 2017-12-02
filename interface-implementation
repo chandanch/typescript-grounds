@@ -1,0 +1,15 @@
+/**
+ * Defining the interface and implmenting it
+ */
+
+interface ICar {
+    name: string;
+}
+
+class Car implements ICar {
+    name: string = 'Honda';
+
+    constructor() {
+        alert('Car:' + name);
+    }
+}
