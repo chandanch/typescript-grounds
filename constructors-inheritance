@@ -1,0 +1,32 @@
+class Car {
+    carType: string;
+    modelNumber: string;
+    price: number;
+    constructor(public manufacturer: string) {
+        alert('Manufacturer:'+ this.manufacturer)
+    }
+
+    printCarInfo(): void {
+        alert(
+            `Manufacturer: ${this.manufacturer}\n
+            Type: ${this.carType}\n
+            Price: ${this.price}\n
+            Model: ${this.modelNumber}
+            `
+        )
+    }
+}
+
+class Honda extends Car {
+    hasAirBag: boolean;
+    color: string;
+
+    constructor(public anufacturer: string) {
+        // child classes that has a constructor are required to call
+        // the parent's constructor using super
+         super(anufacturer);
+    }
+
+}
+
+var fuliomassa = new Honda('honda');
