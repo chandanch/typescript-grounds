@@ -1,5 +1,6 @@
 /**
  * @desc for-in loop
+ * @author chandanch
  * Used for iterating over the object properties
  */
 let scores = [12, 34, 45, 56, 44, 78, 88, 99];
