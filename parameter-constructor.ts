@@ -1,5 +1,5 @@
 /**
- * Using constructor to initialize values
+ *@desc Using parameter constructor to initialize values
  */
 
 class Person {
