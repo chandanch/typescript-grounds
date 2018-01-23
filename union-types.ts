@@ -1,5 +1,6 @@
 /**
  *@description usage of Union Types in interface
+ * union types allow to specify more than one data types
  *@author chandanch
  */
 
