@@ -1,6 +1,5 @@
 /**
  *@description usage of Union Types in interface
- * interface
  *@author chandanch
  */
 
