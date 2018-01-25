@@ -13,6 +13,7 @@ namespace CarNameSpace {
     }
 }
 
+// accessing the members of a namespace
 var honda = new CarNameSpace.Car();
 honda.carType = "Civic";
 honda.engine = "v8";
