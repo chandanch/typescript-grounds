@@ -1,5 +1,5 @@
 /**
-* @description Using namespace to group logically related code
+* @description namespace is used to group logically related code
 * @author chandanch
 */
 namespace CarNameSpace {
